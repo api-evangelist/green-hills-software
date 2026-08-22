@@ -1,0 +1,62 @@
+generated: '2026-08-22'
+method: probed
+source: live probes of the /.well-known/ discovery surface on every Green Hills Software host
+description: >-
+  Results of probing the /.well-known/ discovery surface on every host reachable for Green Hills
+  Software (there is no apis[].baseURL and no OpenAPI servers[] block, because no machine-readable
+  API description was found). Status is the HTTP code observed at fetch time on 2026-08-22 with a
+  browser User-Agent. Every path on every host returned 404 with an HTML error body, so nothing was
+  saved verbatim and NO WellKnown or SecurityTxt pointer is emitted in apis.yml — this file records
+  a measured absence, not a served surface.
+hosts:
+- host: https://www.ghs.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+- host: https://ghs.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+- host: https://support.ghs.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+notes: >-
+  www.ghs.com does publish a /robots.txt (HTTP 200) disallowing /download/, /products/images/,
+  /linux/, /billboards/ and /go/. support.ghs.com returns 404 for /robots.txt.

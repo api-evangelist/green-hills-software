@@ -1,0 +1,27 @@
+generated: '2026-08-22'
+method: searched
+source: https://www.ghs.com/contact/index.html
+provider: Green Hills Software
+providerId: green-hills-software
+plan_count: 0
+description: >-
+  Green Hills Software publishes no pricing tiers, no rate card, and no self-serve plan of any kind.
+  Products (INTEGRITY, INTEGRITY-178 tuMP, u-velOSity, MULTI, AdaMULTI, TimeMachine, DoubleCheck,
+  Green Hills Probe) are sold under negotiated per-seat and per-target commercial licenses, quoted by
+  a regional sales office. The company does state that its real-time operating systems are
+  royalty-free, which is a licensing term rather than a published price.
+plans: []
+notes: >-
+  Probed on 2026-08-22: https://www.ghs.com/pricing.html and
+  https://www.ghs.com/products/pricing.html both return HTTP 404, and no pricing page is linked from
+  https://www.ghs.com/products.html (HTTP 200) or the site footer. The only commercial path the
+  public site offers is the regional contact and quote-request form at
+  https://www.ghs.com/contact/index.html (HTTP 200). https://www.ghs.com/Quotes.html (HTTP 200) is a
+  customer-testimonial page, not price quotes. plan_count is an honest zero, not a gap in this probe.
+sources:
+- url: https://www.ghs.com/contact/index.html
+  status: 200
+- url: https://www.ghs.com/products.html
+  status: 200
+- url: https://www.ghs.com/pricing.html
+  status: 404

@@ -1,0 +1,44 @@
+generated: '2026-08-22'
+method: searched
+source: >-
+  registry.npmjs.org, pypi.org, search.maven.org, azuresearch-usnc.nuget.org, crates.io,
+  rubygems.org, packagist.org, api.github.com
+provider: Green Hills Software
+providerId: green-hills-software
+package_count: 0
+description: >-
+  No first-party Green Hills Software client library, SDK, or CLI package was found in any public
+  package registry. This is consistent with the company's distribution model: its compilers, RTOS,
+  IDE, and middleware are delivered as licensed toolchain installations obtained through
+  https://support.ghs.com/licensing/ (account required), not as public registry artifacts. NO SDKs
+  OR Packages POINTER IS EMITTED in apis.yml - this file records a measured absence.
+packages: []
+searches:
+- registry: npm
+  query: green hills software
+  result: no first-party package; only unrelated generic matches
+- registry: pypi
+  query: ghs, ghs-multi, greenhills
+  result: >-
+    ghs exists but belongs to HackerRank (github.com/interviewstreet/ghs, a GitHub profile stats
+    tool) and is unrelated; ghs-multi and greenhills return 404
+- registry: maven-central
+  query: greenhills OR ghs
+  result: 0 results
+- registry: nuget
+  query: green hills software
+  result: 0 results
+- registry: crates.io
+  query: green hills
+  result: 7 results, none related to Green Hills Software
+- registry: rubygems
+  query: green hills software
+  result: 0 results
+- registry: packagist
+  query: green hills software
+  result: 0 results
+- registry: github
+  query: orgs ghs-software, green-hills-software, ghsw, ghs
+  result: >-
+    all 404. An org named greenhillssoftware exists but has 0 public repositories, no name, no
+    website, and nothing that attributes it to this company, so it is not recorded as first-party.

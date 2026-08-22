@@ -1,0 +1,52 @@
+# Green Hills Software
+
+> Green Hills Software is a privately held embedded software company founded in 1982 by Dan O'Dowd and Carl Rosenberg, headquartered in Santa Barbara, California. It builds safety- and security-certified real-time operating systems, embedded hypervisors, optimizing compilers, and integrated development environments for devices in aerospace, defense, automotive, medical, industrial, rail, telecommunications, and consumer markets.
+
+**Green Hills Software publishes no public web API.** As of 2026-08-22 there is no developer portal, no OpenAPI/Swagger description, no GraphQL endpoint, no AsyncAPI or webhook surface, no MCP server, no A2A agent card, and no `/.well-known/` discovery documents on any Green Hills host (`www.ghs.com`, `ghs.com`, `support.ghs.com` — all probed, all 404). The programmable interfaces Green Hills ships are in-product APIs — POSIX and ARINC 653 C APIs in the INTEGRITY RTOS, AUTOSAR Adaptive/Classic and DDS middleware interfaces, and MULTI-Python debugger scripting — delivered with a licensed toolchain installation and documented in manuals distributed with the product. Do not attempt to call a Green Hills HTTP API; none exists.
+
+## Products
+
+- [Products overview](https://www.ghs.com/products.html): full catalog of operating systems, hypervisors, tools, and middleware.
+- [INTEGRITY RTOS](https://www.ghs.com/products/rtos/integrity.html): partitioning real-time operating system for Arm Cortex-A and other multicore targets; certified to DO-178B/C DAL A, ISO 26262 ASIL D, IEC 61508 SIL 3, EN 50128/50657 SIL 4, and used in FDA Class II/III medical devices.
+- [INTEGRITY-178 tuMP RTOS](https://www.ghs.com/products/safety_critical/integrity_178_tump.html): multicore airborne safety and security RTOS; Common Criteria EAL 6+ against the NSA Separation Kernel Protection Profile, FACE Technical Standard 3.0 conformant, ARINC 653 Part 1 Supplements 4 and 5.
+- [u-velOSity RTOS](https://www.ghs.com/products/micro_velosity.html): small, fast microkernel RTOS.
+- [INTEGRITY Multivisor](https://www.ghs.com/products/rtos/integrity_virtualization.html): embedded hypervisor hosting guest operating systems such as Linux and Android.
+- [u-visor Hypervisor](https://www.ghs.com/products/u-visor.html): virtualization for microcontroller-based safety-critical systems.
+- [MULTI IDE](https://www.ghs.com/products/MULTI_IDE.html): integrated development environment for C/C++; includes MULTI-Python scripting for automating the debugger and regression testing.
+- [AdaMULTI IDE](https://www.ghs.com/products/AdaMULTI_IDE.html): the same environment with Ada support.
+- [Optimizing Compilers](https://www.ghs.com/products/compiler.html): C, C++, Ada, and Fortran cross-compilers.
+- [TimeMachine Debug Suite](https://www.ghs.com/products/timemachine.html): back-in-time execution debugging.
+- [DoubleCheck Code Analysis](https://www.ghs.com/products/doublecheck.html): integrated static source analyzer.
+- [Green Hills Probe V4](https://www.ghs.com/products/probe.html): hardware debug probe.
+- [CRA Platform](https://www.ghs.com/products/CRA_platform.html): Cyber Resilience Act readiness platform.
+
+## Support and documentation
+
+- [Technical support portal](https://support.ghs.com/): FAQs, application notes, screencasts, downloads, and licensing. **Account required** — every documentation path (`/faq/`, `/appnotes/`, `/downloads/`) redirects to `https://support.ghs.com/accounts/login/`. There is no public technical documentation surface.
+- [Register for a support account](https://support.ghs.com/accounts/register/)
+- [Request support](https://support.ghs.com/contact/request-support/)
+- [Licensing](https://support.ghs.com/licensing/): license key request and installation.
+- [Training courses](https://www.ghs.com/training.html): INTEGRITY, MULTI, and BSP training, including MULTI scripting and MULTI-Python integration.
+
+## Company
+
+- [About Green Hills Software](https://www.ghs.com/corporate/index.html)
+- [Management team](https://www.ghs.com/corporate/management_team.html)
+- [Partners](https://www.ghs.com/partners/index.html)
+- [Consulting and engineering services](https://www.ghs.com/ces/index.html)
+- [News releases](https://www.ghs.com/news/index.html) and [RSS feed](https://www.ghs.com/news/news_feed.xml)
+- [Articles and white papers](https://www.ghs.com/articles/index.html)
+- [Events](https://www.ghs.com/events/index.html)
+- [Contact and regional sales offices](https://www.ghs.com/contact/index.html)
+- [Careers](https://www.ghs.com/corporate/jobs.html)
+
+## Commercial terms
+
+- No published pricing. Products are sold under negotiated per-seat and per-target commercial licenses quoted by a regional sales office; `https://www.ghs.com/pricing.html` returns HTTP 404. Green Hills states its real-time operating systems are royalty-free, which is a licensing term rather than a price.
+- [Privacy Policy](https://www.ghs.com/policies/privacy_policy.html)
+- [Cookies Policy](https://www.ghs.com/policies/cookies_policy.html)
+- [Copyright and Patent Notices](https://www.ghs.com/policies/copyright_patent.html)
+
+## Optional
+
+- This file was generated by API Evangelist on 2026-08-22 from the company's own public pages and live probes. It is a third-party profile, not a Green Hills Software publication.

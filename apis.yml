@@ -1,17 +1,39 @@
 aid: green-hills-software
 name: Green Hills Software
-description: 'Green Hills Software is a company surfaced via the API Evangelist harvest backlog (source:
-  secondary-market) and added to the network as a stub for full-pipeline profiling.'
+description: >-
+  Green Hills Software is a privately held embedded software company founded in 1982 by Dan O'Dowd
+  and Carl Rosenberg and headquartered in Santa Barbara, California. It builds safety- and
+  security-certified real-time operating systems (INTEGRITY, INTEGRITY-178 tuMP, u-velOSity),
+  embedded hypervisors (INTEGRITY Multivisor, u-visor), optimizing C/C++/Ada/Fortran compilers,
+  the MULTI and AdaMULTI integrated development environments, the TimeMachine back-in-time debug
+  suite, the DoubleCheck static analyzer, the Green Hills Probe hardware debugger, and networking,
+  file-system and USB middleware. Its customers ship these components inside aerospace, defense,
+  automotive, medical, industrial, rail, telecommunications and consumer devices. Green Hills is a
+  toolchain and operating-system vendor rather than an API provider: the programmable interfaces it
+  ships are in-product C/C++, POSIX and MULTI-Python scripting APIs delivered with a licensed
+  installation and documented in manuals distributed with the product, and its technical support
+  portal at support.ghs.com requires an account. No public web API, developer portal, or
+  machine-readable API description was found on any Green Hills host during enrichment.
+image: https://www.ghs.com/images/logos/ghs_logo_hires2.png
 url: https://raw.githubusercontent.com/api-evangelist/green-hills-software/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
 specificationVersion: '0.20'
 created: '2026-08-22'
 modified: '2026-08-22'
 tags:
 - Company
+- Embedded Systems
+- Real-Time Operating Systems
+- RTOS
+- Compilers
+- Developer Tools
+- Debugging
+- Virtualization
+- Safety Critical
+- Automotive
+- Aerospace and Defense
+- Cybersecurity
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +41,62 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/green-hills-software-domain-security.yml
 - type: Website
-  url: https://forgeglobal.com/green-hills-software_stock/
+  url: https://www.ghs.com/
+- type: Products
+  url: https://www.ghs.com/products.html
+- type: Support
+  url: https://support.ghs.com/
+- type: Blog
+  url: https://www.ghs.com/news/index.html
+- type: BlogRSS
+  url: https://www.ghs.com/news/news_feed.xml
+- type: PrivacyPolicy
+  url: https://www.ghs.com/policies/privacy_policy.html
+- type: Contact
+  url: https://www.ghs.com/contact/index.html
+- type: Training
+  url: https://www.ghs.com/training.html
+- type: Partners
+  url: https://www.ghs.com/partners/index.html
+- type: About
+  url: https://www.ghs.com/corporate/index.html
+- type: LinkedIn
+  url: https://www.linkedin.com/company/green-hills-software/
+- type: Plans
+  url: plans/green-hills-software-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/green-hills-software-rate-limits.yml
+- type: Conformance
+  url: conformance/green-hills-software-conformance.yml
+- type: Compliance
+  url: conformance/green-hills-software-conformance.yml
+- type: LLMsTxt
+  url: llms/green-hills-software-llms.txt
+
+x-enrichment:
+  date: '2026-08-22'
+  status: minimal
+  artifacts_added: 7
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: >-
+    Green Hills Software ships an embedded RTOS and compiler toolchain as licensed end-user
+    products and runs no developer program at all - no API host, no developer portal, no SDK in
+    any public registry, and its only technical documentation surface (support.ghs.com) 302s
+    every FAQ, application-note and download path to an email-link login.
+  evidence:
+    - url: https://www.ghs.com/openapi.json
+      status: 404
+    - url: https://www.ghs.com/.well-known/api-catalog
+      status: 404
+    - url: https://support.ghs.com/faq/
+      status: 302
+    - url: https://www.ghs.com/pricing.html
+      status: 404
+  checked: '2026-08-22'
+

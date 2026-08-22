@@ -1,0 +1,147 @@
+generated: '2026-08-22'
+method: searched
+source: https://www.ghs.com/products/rtos/integrity.html
+provider: Green Hills Software
+providerId: green-hills-software
+description: >-
+  Standards and certifications Green Hills Software declares on its own public product pages. IMPORTANT
+  SCOPE NOTE: every entry below certifies or conforms a SHIPPED SOFTWARE PRODUCT (the INTEGRITY /
+  INTEGRITY-178 tuMP RTOS and its middleware), not a web API. Green Hills publishes no OpenAPI,
+  AsyncAPI, GraphQL SDL, WSDL or .proto contract on any host, so none of these claims could be
+  verified against a machine-readable contract and none of them is a domain_standard_conformance
+  signal in the 0.12.0 sense - that check reads the contract, and there is no contract to read here.
+  Each entry records where the claim is published and how it was verified.
+contract_present: false
+contract_note: >-
+  Contract discovery on 2026-08-22 probed /openapi.json, /openapi.yaml, /swagger.json,
+  /v1/openapi.json, /api-docs, /docs, /redoc, /graphql, /apis.json, /llms.txt and every
+  /.well-known/* discovery path on www.ghs.com, ghs.com and support.ghs.com. All returned HTTP 404.
+  No gRPC .proto and no SOAP ?wsdl surface was found either.
+conformance:
+- id: do-178c-dal-a
+  name: RTCA DO-178B/C Design Assurance Level A
+  category: safety-certification
+  conforms: true
+  scope: product
+  certifying_body: FAA
+  evidence: >-
+    "FAA: DO-178B/C DAL A" published on https://www.ghs.com/products/rtos/integrity.html and
+    "certified both to the highest levels of airborne safety (DO-178B/C DAL A)" on
+    https://www.ghs.com/products/safety_critical/integrity_178_tump.html
+- id: ac-20-193-cast-32a
+  name: AC 20-193 / CAST-32A multicore certification
+  category: safety-certification
+  conforms: true
+  scope: product
+  certifying_body: FAA
+  evidence: >-
+    "first RTOS to be part of a multicore certification to DO-178C and AC 20-193/CAST-32A" on
+    https://www.ghs.com/products/safety_critical/integrity_178_tump.html
+- id: common-criteria-eal6plus-skpp
+  name: Common Criteria EAL 6+ / NSA Separation Kernel Protection Profile (High Robustness)
+  category: security-certification
+  conforms: true
+  scope: product
+  certifying_body: NSA / NIAP
+  evidence: >-
+    "NSA: SKPP High Robustness and Common Criteria EAL 6+" on
+    https://www.ghs.com/products/rtos/integrity.html
+- id: nsa-raise-the-bar
+  name: NSA Raise the Bar (RTB) for Cross Domain Solutions
+  category: security-certification
+  conforms: true
+  scope: product
+  certifying_body: NSA
+  evidence: >-
+    "NSA: Raise the Bar (RTB) for Cross Domain Solutions (CDS)" on
+    https://www.ghs.com/products/rtos/integrity.html
+- id: iso-26262-asil-d
+  name: ISO 26262 ASIL D
+  category: safety-certification
+  conforms: true
+  scope: product
+  evidence: >-
+    "ISO 26262 ASIL D and automotive cybersecurity standards as defined by ISO/SAE 21434 CAL 4 and
+    UNECE WP.29 CSMS" on https://www.ghs.com/products/rtos/integrity.html
+- id: iec-61508-sil3
+  name: IEC 61508 SIL 3 / EN 50128-50657 SIL 4
+  category: safety-certification
+  conforms: true
+  scope: product
+  evidence: >-
+    "EN 50128/50657 SIL 4, IEC 61508 SIL 3" on https://www.ghs.com/products/rtos/integrity.html
+- id: fda-class-ii-iii
+  name: FDA Class II and Class III medical device approval
+  category: regulatory
+  conforms: true
+  scope: product
+  evidence: >-
+    "FDA: Class II and Class III medical device approval" on
+    https://www.ghs.com/products/rtos/integrity.html
+- id: arinc-653
+  name: ARINC 653 Part 1 Required Services, Supplements 4 and 5
+  category: domain-interface-standard
+  conforms: true
+  scope: product-api
+  contract_declared: false
+  evidence: >-
+    "ARINC 653 Part 1 Required Services, Supplements 4 & 5" on
+    https://www.ghs.com/products/rtos/integrity.html. This is a real avionics APPLICATION INTERFACE
+    standard, but it is declared in product prose and implemented as an in-product C API shipped with
+    a licensed installation; no published machine-readable contract declares it.
+- id: face-technical-standard-3-0
+  name: FACE Technical Standard Edition 3.0 (safety base and security profiles)
+  category: domain-interface-standard
+  conforms: true
+  scope: product-api
+  contract_declared: false
+  evidence: >-
+    "first operating system certified conformant to the latest major revision of the FACE Technical
+    Standard, edition 3.0" on https://www.ghs.com/products/safety_critical/integrity_178_tump.html
+- id: posix
+  name: POSIX
+  category: domain-interface-standard
+  conforms: true
+  scope: product-api
+  contract_declared: false
+  evidence: >-
+    POSIX listed among INTEGRITY runtime environments on
+    https://www.ghs.com/products/rtos/integrity.html. In-product C API, not a web contract.
+- id: autosar
+  name: AUTOSAR Adaptive and AUTOSAR Classic
+  category: domain-interface-standard
+  conforms: true
+  scope: product-api
+  contract_declared: false
+  evidence: >-
+    "AUTOSAR Adaptive, AUTOSAR Classic" listed among INTEGRITY runtime environments on
+    https://www.ghs.com/products/rtos/integrity.html
+- id: oasis-dds
+  name: OMG Data Distribution Service (DDS)
+  category: domain-interface-standard
+  conforms: true
+  scope: product-api
+  contract_declared: false
+  evidence: >-
+    "Data Distribution Service (DDS)" listed among INTEGRITY middleware on
+    https://www.ghs.com/products/rtos/integrity.html
+- id: oauth2
+  name: OAuth 2.0
+  category: api-standard
+  conforms: false
+  evidence: No OAuth surface found; /.well-known/oauth-authorization-server returned 404 on every host.
+- id: openid-connect
+  name: OpenID Connect
+  category: api-standard
+  conforms: false
+  evidence: /.well-known/openid-configuration returned 404 on www.ghs.com, ghs.com and support.ghs.com.
+- id: rfc9457
+  name: RFC 9457 Problem Details for HTTP APIs
+  category: api-standard
+  conforms: false
+  evidence: No HTTP API or machine-readable contract published, so no error format could be assessed.
+- id: rfc9116
+  name: RFC 9116 security.txt
+  category: api-standard
+  conforms: false
+  evidence: /.well-known/security.txt returned 404 on www.ghs.com, ghs.com and support.ghs.com.

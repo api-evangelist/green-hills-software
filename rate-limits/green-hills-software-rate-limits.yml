@@ -1,0 +1,20 @@
+generated: '2026-08-22'
+method: searched
+source: https://www.ghs.com/
+provider: Green Hills Software
+providerId: green-hills-software
+limit_count: 0
+applicability: na
+description: >-
+  Green Hills Software operates no public web API, so there is no request surface to rate limit and
+  no runtime throttling signal to document. This is not an undocumented limit; it is the absence of
+  an HTTP API. The company's programmable interfaces are in-product C/C++, POSIX and MULTI-Python
+  scripting APIs that execute inside a licensed toolchain installation on the developer's own
+  machine, where rate limiting does not apply.
+scopes: []
+headers: []
+notes: >-
+  Contract discovery on 2026-08-22 probed /openapi.json, /openapi.yaml, /swagger.json,
+  /v1/openapi.json, /api-docs, /docs, /redoc, /graphql and /apis.json on www.ghs.com, ghs.com and
+  support.ghs.com; every path returned HTTP 404. limit_count is an honest zero recorded against a
+  provider with no HTTP API surface.
