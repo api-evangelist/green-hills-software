@@ -1,0 +1,21 @@
+{
+  "repo": "green-hills-software",
+  "feeds": [
+    {
+      "source": "https://support.ghs.com/",
+      "feed_url": "https://support.ghs.com/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
+      "source": "https://www.ghs.com/news/index.html",
+      "feed_url": "http://www.ghs.com/news/news_feed.xml",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-08-22T20:20:02Z"
+}
