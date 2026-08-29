@@ -14,6 +14,17 @@ description: >-
   installation and documented in manuals distributed with the product, and its technical support
   portal at support.ghs.com requires an account. No public web API, developer portal, or
   machine-readable API description was found on any Green Hills host during enrichment.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://www.ghs.com/images/logos/ghs_logo_hires2.png
 url: https://raw.githubusercontent.com/api-evangelist/green-hills-software/refs/heads/main/apis.yml
 x-type: company
